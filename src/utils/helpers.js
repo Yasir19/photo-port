@@ -1,4 +1,6 @@
 export function capitalizeFirstLetter(string) {
+  console.log('function running')
+  console.log(string);
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
